@@ -85,7 +85,6 @@
 // export default ChatItem;
 
 import { Avatar, Box, Typography } from '@mui/material';
-import React from 'react';
 import { useAuth } from '../../context/AuthContext';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { coldarkDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
