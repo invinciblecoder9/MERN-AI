@@ -133,7 +133,7 @@ import { hash, compare } from "bcrypt";
 import { createToken } from "../utils/token-manager.js";
 import { COOKIE_NAME } from "../utils/constants.js";
 
-const FRONTEND_DOMAIN = process.env.FRONTEND_DOMAIN || "localhost";
+const FRONTEND_DOMAIN = "mern-ai-tn68.vercel.app";
 
 export const getAllUsers = async (
   req: Request,
