@@ -9,7 +9,7 @@ import {Toaster} from 'react-hot-toast'
 import axios from "axios";
 
 
-axios.defaults.baseURL = "https://mern-ai-wsq6.onrender.com/api/v1";
+axios.defaults.baseURL = "https://mern-ai-1-9gs0.onrender.com/api/v1";
 // it will help to exchange cookies
 axios.defaults.withCredentials = true;
 
