@@ -10,7 +10,7 @@ config();
 const app = express();
 
 //middlewares
-app.use(cors({origin: ["https://mern-ai-tn68.vercel.app/", "http://localhost:5173"], credentials: true, exposedHeaders: ["set-cookie"]}));
+app.use(cors({origin:"https://mern-ai-tn68.vercel.app/", credentials: true}));
 app.use(express.json());
 app.use(cookieParser(process.env.COOKIE_SECRET));
 
